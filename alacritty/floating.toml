@@ -1,0 +1,46 @@
+import = [
+	# colorscheme
+	"~/.config/alacritty/themes/catpuccin.toml",
+
+	# font
+	"~/.config/alacritty/fonts/iosevka.toml"
+]
+
+[window.class]
+instance = "floating_terminal"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[cursor]
+style = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12
+
+[font.bold]
+family = "Iosevka Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Nerd Font"
+style = "Medium"
+
+[window]
+dynamic_padding = true
+opacity = 1
+
+[window.padding]
+x = 6
+y = 6

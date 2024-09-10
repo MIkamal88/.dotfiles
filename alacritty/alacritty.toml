@@ -1,0 +1,24 @@
+import = [
+	# colorscheme
+	"~/.config/alacritty/themes/catpuccin.toml",
+
+	# font
+	"~/.config/alacritty/fonts/iosevka.toml"
+]
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[cursor]
+style = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+dynamic_padding = true
+opacity = 1
+
+[window.padding]
+x = 6
+y = 6
